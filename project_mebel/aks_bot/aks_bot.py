@@ -1,10 +1,11 @@
 from aiogram import Bot, Dispatcher
 import asyncio
+from decouple import config
 
 from AksMebel.project_mebel.aks_bot.handlers import router
 
 async def main():
-    bot = Bot(token="8008523315:AAGTA9n6pYyNzT81ufIrXmcovkF1jaxN5aQ")
+    bot = Bot(config('TOKEN'))
     dp = Dispatcher()
     dp.include_router(router)
     await dp.start_polling(bot)
