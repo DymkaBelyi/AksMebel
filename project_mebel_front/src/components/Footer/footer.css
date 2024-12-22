@@ -1,0 +1,75 @@
+
+background-image: "C:\Users\Belov\PycharmProjects\pythonProject3\aks_home_front\src\components\Footer\payments.KHg3S.webp";
+
+.footer-payment-image {
+    display: flex;
+    width: 100%;
+    min-width: 285px;
+    background-size: 300px;
+    height: 130px;
+}
+.footer-payment-image, .header-middle-line__logo-url, .main-user-consent-request input:checked+span::before {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*, :before, :after {
+    outline: none;
+    font-family: "OpenSans-Regular", "Open Sans", Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+footer {
+    background-color: #f7f7f9;
+    position: relative;
+    margin-top: 100px
+}
+
+.footer-logo img {
+    max-width: 150px
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #000
+}
+
+.footer-columns a {
+    color: #000;
+    text-decoration: none
+}
+
+.footer-columns-item {
+    padding-right: 10px
+}
+
+.footer-columns-item .title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 16px
+}
+
+.footer-columns ul {
+    list-style: none;
+    padding: 0
+}
+
+.footer-columns p,.footer-columns ul li {
+    line-height: 22px;
+    font-size: 12px
+}
+
+
+
+
+

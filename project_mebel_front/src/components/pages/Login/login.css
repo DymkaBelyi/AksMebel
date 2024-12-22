@@ -1,0 +1,101 @@
+.registration_modal {
+    box-shadow: 7px 8px 55px rgba(51, 51, 51, 0.15);
+    display: flex;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+@media (max-width: 998px) {
+    .registration_modal .content_box {
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+.registration_modal .tab_section {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.registration_modal .tab_section > div {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #B3B3B4;
+    margin-right: 45px;
+    position: relative;
+}
+
+.registration_modal .tab_section > div.active {
+    color: #fede0f;
+}
+.registration_modal .tab_section > div:last-child {
+    margin-right: 0;
+}
+.registration_modal .tab_section > div {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #B3B3B4;
+    margin-right: 45px;
+    position: relative;
+}
+
+@media (max-width: 998px) {
+    .registration_modal .img_box_registration {
+        display: none;
+    }
+}
+.registration_modal .img_box_registration {
+    width: 50%;
+    height: 480px;
+    background: url(https://akshome.by/local/templates/akshome/components/bitrix/system.auth.authorize/flat/images/registratio-bg-1.webp) center / cover no-repeat;
+}
+
+
+.bx-authform-formgroup-container .btn {
+    width: 100%;
+    max-width: 370px;
+}
+.btn-primary, a.content-button, button.content-button, div.content-button, input.content-button {
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #3a3a3c;
+    border: 1px solid #3a3a3c;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.singin_form input:not([type="submit"]) {
+    width: 100%;
+    background: #F7F7F9;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 45px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    max-width: 370px;
+}
+
+
+
+
+
+
+

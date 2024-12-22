@@ -1,0 +1,73 @@
+.registration_modal {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background: #fff;
+    box-shadow: 7px 8px 55px rgba(51, 51, 51, 0.15);
+}
+
+.registration_modal .content_box {
+    width: 60%;
+    padding: 30px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.registration_modal .tab_section > div.active::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background: #fede0f;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+
+.registration_modal .img_box_registration {
+    width: 40%;
+    height: 480px;
+    background: url(https://akshome.by/local/templates/akshome/components/bitrix/main.register/.default/images/registratio-bg-1.webp) center / cover no-repeat;
+}
+
+.registration_modal .input_box {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+
+
+.input_box > input {
+    width: calc(50% - 12px);
+    height: 45px;
+    background: #F7F7F9;
+    border: 1px solid #DDD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+
+
+.registration_form .password {
+    width: 100%;
+    background: #F7F7F9;
+    border: 1px solid #fede0f;
+    box-sizing: border-box;
+    box-shadow: -1px 3px 15px rgba(241, 149, 21, 0.25);
+    border-radius: 2px;
+    height: 45px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+}
+
+
+
+

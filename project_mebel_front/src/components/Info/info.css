@@ -1,0 +1,35 @@
+element.style {
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.advantages-element {
+    width: 25%;
+    padding: 45px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.advantages-section {
+    background: #f7f7f9;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.advantages-wrapper {
+    display: flex;
+    flex-wrap: wrap
+}

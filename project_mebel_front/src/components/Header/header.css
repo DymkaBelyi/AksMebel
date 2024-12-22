@@ -1,0 +1,25 @@
+.header-info {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 30px;
+    border: none;
+}
+
+.alert-block {
+    border: none;
+}
+
+.img-head-info {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    position: relative;
+    max-height: 65%;
+    max-width: 65%;
+}
+
+
+.global{
+    color: #5E3830;
+}
+

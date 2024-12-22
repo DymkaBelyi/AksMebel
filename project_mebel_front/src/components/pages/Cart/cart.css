@@ -1,0 +1,33 @@
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.bx-sbb-empty-cart-image {
+    margin: 80px auto 42px;
+    width: 131px;
+    height: 116px;
+    background: url(https://akshome.by/local/components/custom/sale.basket.basket/templates/bootstrap_v4/images/empty_cart.svg) center / contain no-repeat;
+    -webkit-background-size: contain;
+}
+
+.bx-sbb-empty-cart-text {
+    margin-bottom: 42px;
+    color: #bababa;
+    text-align: center;
+    font-size: 36px;
+}
+
+.bx-sbb-empty-cart-desc {
+    margin-bottom: 42px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+}
